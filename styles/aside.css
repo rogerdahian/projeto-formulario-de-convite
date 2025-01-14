@@ -1,0 +1,36 @@
+aside {
+  overflow: hidden;
+  margin: 20px;
+  padding: 32px;
+
+  border-radius: 8px;
+
+  box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.221);
+
+  background-position: fixed;
+
+  background-image: url(../assets/img-aside/Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: minmax(400px);
+  height: 100vh;
+
+  & .aside-container {
+    max-width: 25rem;
+  }
+  & img {
+    width: 45.85px;
+    height: 48px;
+    object-fit: cover;
+    margin-bottom: 16px;
+  }
+  & h1 {
+    font: var(--logo);
+    color: var(--pink);
+  }
+
+  & p {
+    font: var(--body-md);
+    color: var(--text-heading);
+  }
+}
